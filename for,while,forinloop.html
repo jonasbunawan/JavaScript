@@ -1,0 +1,40 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Javascript Loops</title>
+    </head>
+    <body>
+        <script>
+            document.write('<h1>For Loop</h1>');
+            for(var i = 0; i <= 10; i++){
+                document.write('number ' + i + '<br />');
+            }
+            
+            document.write('<h1>While Loop</h1>');
+            var i = 0;
+            while(i < 10){
+                document.write('number ' + i + '<br />');
+                i++;
+            }
+            
+            document.write('<h1>For In Loop Array</h1>');
+            var people = ['Sally', 'Bob', 'Steve', 'Jen'];
+            for(i in people){
+                document.write(people[i] + '<br />');
+            }
+            
+            document.write('<h1>For Loop Array</h1>');
+            for(i = 0;i < people.length;i++){
+                document.write(people[i] + '<br />');
+            }
+            
+            document.write('<h1>While Loop Array</h1>');
+            var i = 0;
+            while(i < people.length){
+                document.write(people[i] + '<br />');
+                i++;
+            }
+            
+        </script>
+    </body>
+</html>

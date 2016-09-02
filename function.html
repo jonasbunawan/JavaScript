@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Javascript Functions</title>
+        <script>
+            function sayIt(word1, word2){
+                word2 = word2 || 'World'
+                document.write(word1 + ' ' + word2);
+            }
+            
+            function add(num1, num2){
+                sum = num1 + num2;
+                return sum;
+            }
+        </script>
+    </head>
+    <body>
+        <script>
+            sayIt('Hello', 'Brad');
+            document.write('<br />' + add(5, 5));
+        </script>
+    </body>
+</html>

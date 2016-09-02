@@ -1,0 +1,61 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Javascript Conditionals</title>
+    </head>
+    <body>
+        <script>
+            var color = 'red';
+            if(color == 'red'){
+                document.write('the color is red');
+            }else if(color == 'blue'){
+                document.write('the color is blue');
+            }else{
+                document.write('the color is neither red nor blue');
+            }
+            
+            document.write('<br />');
+            
+            x = 4;
+            switch(x){
+                case 2:
+                    document.write('x is 2');
+                    break;
+                case 5:
+                    document.write('x is 5');
+                    break;
+                default:
+                    document.write('x is neither 2 nor 5');
+                    break;
+            }
+            
+            document.write('<br />');
+            
+            var day=new Date().getDay();
+            switch(day){
+                case 0:
+                    x="Today is Sunday";
+                    break;
+                case 1:
+                    x="Today is Monday";
+                    break;
+                case 2:
+                    x="Today is Tuesday";
+                    break;
+                case 3:
+                    x="Today is Wednesday";
+                    break;
+                case 4:
+                    x="Today is Thursday";
+                    break;
+                case 5:
+                    x="Today is Friday";
+                    break;
+                case 6:
+                    x="Today is Saturday";
+                    break;
+            }
+            alert(x);
+        </script>
+    </body>
+</html>
